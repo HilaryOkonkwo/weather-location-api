@@ -1,20 +1,9 @@
 {
-    "name": "weather-location-api",
-    "version": "1.0.0",
-    "builds": [
+  "version": 2,
+  "builds": [
       {
           "src": "./index.js",
           "use": "@vercel/node"
       }
+  ]
 }
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "description": "Nodejs Web Server with Weather and Location API Endpoints",
-    "dependencies": {
-      "axios": "^1.7.2",
-      "express": "^4.19.2"
-    },
-    "devDependencies": {}
-  }
