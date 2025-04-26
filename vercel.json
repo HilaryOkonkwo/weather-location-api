@@ -1,9 +1,12 @@
 {
     "name": "weather-location-api",
     "version": "1.0.0",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node index.js"
+    "builds": [
+      {
+          "src": "./index.js",
+          "use": "@vercel/node"
+      }
+}
     },
     "keywords": [],
     "author": "",
